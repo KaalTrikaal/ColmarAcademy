@@ -1,0 +1,77 @@
+
+/* Header */
+
+.container {
+   display: inline-flex;
+}
+header {
+  background-color: white;
+  height: 64px;
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo{
+  padding-left: 24px;
+  flex-grow:1;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+h1 .title {
+  color: aquamarine;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul li {
+  margin: auto;
+  font-size: 18px;
+  display: inline-flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  text-align: right;
+  padding: 5px;
+  padding-left: 80px;
+  padding-right: 24px;
+}
+
+/* Banner */
+
+.banner {
+  height: 470px;
+  width: auto;
+  background-color: green;
+  flex: wrap;
+  flex-direction: column;
+
+}
+
+.banner .banner-img {
+  height: 400px;
+  width: 540px;
+  padding: 32px 24px;
+  background-image: url("./images/banner.jpg");
+}
+h1 .text {
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  font-weight: bold;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  width: 250px;
+  padding: 8px;
+  text-align: center;
+}
