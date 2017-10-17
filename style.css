@@ -206,3 +206,26 @@ hr {
   height: auto;
   width: 100%;
 }
+/* Footer */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+.footer span {
+  margin-top: 12px;
+  padding-left: 200px;
+}
+.footer nav {
+  margin-top: 12px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 180px;
+}
+.footer nav a {
+  padding-right: 16px;
+  text-decoration: none;
+}
