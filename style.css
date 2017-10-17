@@ -121,6 +121,7 @@ hr {
   margin-bottom: 32px;
 }
 .info {
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
   margin-left: 24px;
@@ -155,7 +156,7 @@ hr {
   text-decoration: none;
 }
 /* Course row1 row2 Section */
-.course h1 {
+.course h1, .thesis h1 {
   margin: 32px 0;
   text-align: center;
 }
@@ -199,4 +200,9 @@ hr {
 }
 .row2 {
   margin-bottom: 32px;
+}
+/* Thesis */
+.video {
+  height: auto;
+  width: 100%;
 }
