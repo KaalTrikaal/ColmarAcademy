@@ -344,7 +344,9 @@ hr {
   .banner img {
     width: 50%;
   }
-
+hr {
+  width: 100%;
+}
   #banner-text {
     width: 100%;
     text-align: center;
