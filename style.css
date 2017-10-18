@@ -349,7 +349,6 @@ hr {
     width: 85%;
   }
   .banner {
-
   }
   .banner img {
     width: 50%;
@@ -373,5 +372,6 @@ hr {
     display: flex;
     width: 100%;
   }
-
 }
+
+/* Media Query fot Mobile*/
