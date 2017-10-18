@@ -330,7 +330,7 @@ hr {
   text-decoration: underline;
 }
 
-/* Media Query fot Tablet*/
+/* Media Query fot Tablet & Mobile*/
 
 @media only screen and (max-width: 1280px) {
   .header {
@@ -374,46 +374,4 @@ hr {
   }
 }
 
-/* Media Query fot Mobile*/
-@media only screen and (max-width: 1280px) {
-  .header {
-    justify-content: space-around;
-  }
-  #mobile-header {
-    display: flex;
-    flex-grow: 1;
-    width: 25%;
-    height: 50%;
-  }
-  .desktop-header, header .logo {
-    display: none !important;
-  }
-  .practice, .practice p, .practice span, .banner img,
-   .banner-text h3, #mobileimg {
-    width: 85%;
-  }
-  .banner {
-  }
-  .banner img {
-    width: 100%;
-    margin-top: 16px;
-    padding-top: 48px;
-  }
-hr {
-  width: 95%;
-}
-  #banner-text {
-    width: 100%;
-    text-align: center;
-  }
-  h1 {
-    font-size: 24px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  #mobileimg {
-    display: flex;
-    width: 100%;
-  }
-}
+/* END */
