@@ -1,4 +1,5 @@
 /* Universal Styles */
+
 html {
   font-size: 16px;
   font-family: 'ubuntu', Oswald, sans-serif;
@@ -130,7 +131,7 @@ strong {
 
 hr {
   width: 70%;
-  color:
+  color: brown;
 }
 
 /* Sub-Section */
@@ -337,7 +338,7 @@ hr {
     display: none !important;
   }
   .practice, .practice p, .practice span, .banner img,
-   .banner-text h3, #mobile img {
+   .banner-text h3, #mobileimg {
     width: 75%;
   }
   .banner img {
