@@ -216,6 +216,10 @@ hr {
   text-decoration: none;
 }
 
+ .text a:hover {
+  text-decoration: underline;
+}
+
 /* Course row1 row2 Section */
 
 .course {
@@ -321,6 +325,9 @@ hr {
   padding-right: 16px;
   text-decoration: none;
   color: blue;
+}
+.footer nav a:hover {
+  text-decoration: underline;
 }
 
 /* Media Query fot Tablet*/
