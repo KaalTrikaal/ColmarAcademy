@@ -337,12 +337,14 @@ hr {
     display: none !important;
   }
   .practice, .practice p, .practice span, .banner img,
-   .banner-text h3, #mobileimg {
+   .banner-text h3, #mobile img {
     width: 75%;
   }
-  
+  .banner img {
+    margin:
+  }
 
-  #bannet-text {
+  #banner-text {
     width: 100%;
     text-align: center;
   }
