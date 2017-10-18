@@ -342,6 +342,9 @@ hr {
    .banner-text h3, #mobileimg {
     width: 85%;
   }
+  .banner {
+    margin-top: 16px;
+  }
   .banner img {
     width: 50%;
     margin-top: 16px;
