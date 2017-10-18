@@ -339,7 +339,7 @@ hr {
   }
   .practice, .practice p, .practice span, .banner img,
    .banner-text h3, #mobileimg {
-    width: 75%;
+    width: 50%;
   }
   .banner img {
     margin:
