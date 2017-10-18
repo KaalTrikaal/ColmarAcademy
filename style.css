@@ -322,7 +322,7 @@ hr {
   color: blue;
 }
 
-/* Media Query */
+/* Media Query fot Tablet*/
 
 @media only screen and (max-width: 1280px) {
   .header {
@@ -341,9 +341,9 @@ hr {
     width: 75%;
   }
   .banner img {
-    width: 50%;
+    
   }
-  
+
   #bannet-text {
     width: 100%;
     text-align: center;
