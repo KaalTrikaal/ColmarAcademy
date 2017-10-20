@@ -373,13 +373,6 @@ hr {
     display: flex;
     width: 100%;
   }
-  .footer nav {
-    padding-left: 30px;
-    padding-right: 210px;
-  }
-    .footer nav a {
-    padding-right: 8px;
-  }
 }
 
 /* END */
