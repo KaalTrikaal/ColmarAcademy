@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  background-color: aqua;
+  background-color: #00ffff;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
   width: 100%;
   height: 64px;
   color: black;
-  background-color: Coral;
+  background-color: #ff7f50;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -78,7 +78,7 @@ strong {
   }
 
 .desktop-header a:hover {
-  color: lightblue;
+  color: #add8e6;
 }
 
 /* Banner */
@@ -326,11 +326,12 @@ hr {
   text-decoration: none;
   color: blue;
 }
+
 .footer nav a:hover {
   text-decoration: underline;
 }
 
-/* Media Query fot Tablet & Mobile*/
+/* Media Query for Tablet & Mobile*/
 
 @media only screen and (max-width: 1280px) {
   .header {
@@ -371,6 +372,13 @@ hr {
   #mobileimg {
     display: flex;
     width: 100%;
+  }
+  .footer nav {
+    padding-left: 30px;
+    padding-right: 210px;
+  }
+    .footer nav a {
+    padding-right: 8px;
   }
 }
 
